@@ -3,43 +3,43 @@ brew_cask_apps=(
     # github
     google-chrome
     google-backup-and-sync
-    itsycal
+    # itsycal
     # skype
-    slack
-    spotify
+    # slack
+    # spotify
     # the-unarchiver
-    transmission
-    visual-studio-code
-    vlc
-    alfred
-    spectacle
-    onedrive
+    # transmission
+    # visual-studio-code
+    # vlc
+    # alfred
+    # spectacle
+    # onedrive
     docker
-    sublime-text
-    reactotron
+    # sublime-text
+    # reactotron
     # vanilla
-    dozer
-    notion
-    macmediakeyforwarder
-    cheatsheet
+    # dozer
+    # notion
+    # macmediakeyforwarder
+    # cheatsheet
     insomnia
-    spotmenu
-    brave-browser
-    tunnelblick
+    # spotmenu
+    # brave-browser
+    # tunnelblick
     ngrok
     dash
-    muzzle
-    authy
+    # muzzle
+    # authy
     cloudapp
-    https://raw.githubusercontent.com/Mortennn/FiScript/master/fiscript.rb
-    keka
-    brooklyn
+    # https://raw.githubusercontent.com/Mortennn/FiScript/master/fiscript.rb
+    # keka
+    # brooklyn
     # caprine
     # shifty
-    mark-text
-    asciinema
-    fork
-    iterm2
+    # mark-text
+    # asciinema
+    # fork
+    # iterm2
 )
 
 brew_apps=(
@@ -48,19 +48,19 @@ brew_apps=(
     # shpotify
     ffsend
     mas
-    nvm
-    node
-    yarn
+    # nvm
+    # node
+    # yarn
     zsh
     zsh-completions
     zsh-autosuggestions
-    ansible
-    kubectl
-    terraform
-    awscli
-    watch
-    minikube
-    aws-iam-authenticator
+    # ansible
+    # kubectl
+    # terraform
+    # awscli
+    # watch
+    # minikube
+    # aws-iam-authenticator
     telnet
     bat
 )
@@ -73,11 +73,11 @@ brew_cask_fonts=(
 
 mas_apps=(
     #Pages
-    409201541
+    # 409201541
     #Keynote
-    409183694
+    # 409183694
     #Numbers
-    409203825
+    # 409203825
     #Xcode
     # 497799835
     #Trello
@@ -85,7 +85,7 @@ mas_apps=(
     #Lightshot Screenshot
     # 526298438
     #Amphetamine
-    937984704
+    # 937984704
     #CopyClip - Clipboard History
     595191960
 )

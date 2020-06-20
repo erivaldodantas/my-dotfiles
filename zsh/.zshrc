@@ -45,7 +45,11 @@ alias dt="cd ~/Desktop"
 alias g="git"
 alias stash="git stash"
 alias pop="git stash pop"
-alias stt="git status"
+alias gs="git status"
+alias ga="git add ."
+alias gpl="git pull"
+alias gph="git push origin HEAD"
+alias gps="git push"
 alias n="npm"
 alias ns="npm run start"
 alias y="yarn"
@@ -76,8 +80,13 @@ alias spoton="sudo mdutil -a -i on"
 # [C] explained: http://www.commandlinefu.com/commands/view/402/exclude-grep-from-your-grepped-output-of-ps-alias-included-in-description
 alias chromekill="ps ux | grep '[C]hrome Helper --type=renderer' | grep -v extension-process | tr -s ' ' | cut -d ' ' -f2 | xargs kill"
 
-alias work-profile="open -a 'Firefox' --args --make-default-browser && git config --global user.name 'Bruno Russi Lautenschlager' && git config --global user.email bruno.lautenschlager@mandic.net.br"
-alias home-profile="open -a 'Google Chrome' --args --make-default-browser && git config --global user.name 'Bruno Russi Lautenschlager' && git config --global user.email brunoxd13@gmail.com"
+alias work="echo '.::Mandic SA::.' && git config --global user.name 'Erivaldo Pereira' && git config --global user.email erivaldo.pereira@mandic.net.br && cd ~/Projetos"
+alias home="echo '🌛🛌Home🤘' && git config --global user.name 'Erivaldo Dantas' && git config --global user.email erivaldo.dantas85@gmail.com && cd ~/Projetos"
+alias solumobi="echo '.::Solumobi::.' && git config --global user.name 'Erivaldo Dantas' && git config --global user.email erivaldo.dantas85@gmail.com && cd ~/Projetos/Solumobi"
+alias da="echo '.::DigitalApps::.' && git config --global user.name 'Erivaldo Dantas' && git config --global user.email erivaldo.dantas85@gmail.com && cd ~/Projetos/DigitalApps"
+alias blue="echo '.::BlueMedia::.' && git config --global user.name 'Erivaldo Dantas' && git config --global user.email erivaldo.dantas85@gmail.com && cd ~/Projetos/BlueMedia"
+alias sb="echo '.::SizeBay::.' && git config --global user.name 'Erivaldo Dantas' && git config --global user.email erivaldo.dantas85@gmail.com && cd ~/Projetos/Sizebay"
+
 
 # Lock the screen (when going AFK)
 alias afk="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend"

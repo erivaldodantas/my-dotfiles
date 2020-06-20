@@ -6,7 +6,6 @@ Look at my greatest creation. This dotfiles allow me to be highly productive in 
 
 This configuration allows you to quickly install tools that allow you to develop. It contains for example tools for git, text editors, communication tools, testing tools, virtualization and dockerization tools, debugging tools, storage. (see /homebrew/apps.sh)
 
-
 ### Files Structure
 
 ```
@@ -24,13 +23,13 @@ This configuration allows you to quickly install tools that allow you to develop
 
 Clone repository
 
-
 ```
-git clone https://github.com/brunoxd13/my-dotfiles
+git clone https://github.com/Erivaldoxd13/my-dotfiles
 ```
 
-* Install full tools
-Run start
+- Install full tools
+  Run start
+
 ```
 cd ./my-dotfiles
 ./start.sh
@@ -38,14 +37,15 @@ cd ./my-dotfiles
 
 This scripts run to update your macOS and install developers tools.
 
-* Install only zsh config
-| Please see [How to install oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh/wiki/Installing-ZSH)
+- Install only zsh config
+  | Please see [How to install oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh/wiki/Installing-ZSH)
 
 ```
 cp ./my-dotfiles/zsh/.zshrc $HOME/.zshrc
 ```
 
-* Install only apps
+- Install only apps
+
 ```
 cd ./my-dotfiles/homebrew
 ./install.sh
